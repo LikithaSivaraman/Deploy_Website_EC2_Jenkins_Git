@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Clone Repository') {
+            steps {
+                git 'https://github.com/LikithaSivaraman/Deploy_Website_EC2_Jenkins_Git/tree/main/website'
+            }
+        }
+
+        stage('Deploy Website') {
+            steps {
+                sh ```
+                cp -r * /var/www/html/
+                ```
+            }
+        }
+
+    }
+}
