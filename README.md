@@ -26,3 +26,16 @@ GitHub → Terraform(EC2) → Jenkins → Nginx → Website
 3. Files copied to /var/www/html
 4. Nginx serves the website
 
+## Project Structure
+```
+Project folder
+```
+terraform
+```
+main.tf
+```
+variables.tf
+```
+terraform.tfvars
+```
+
