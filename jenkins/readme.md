@@ -3,5 +3,5 @@
 - Code pushed to github repository
 - GitHub webhook triggers Jenkins pipeline
 - Jenkins pulls the latest code
-- Jenkins copies website files to EC2
+- Jenkins copies website files to EC2's path : /var/www/html
 - Nginx serves the updated website
