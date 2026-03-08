@@ -1,4 +1,4 @@
-## Implements a pipeline using jenkins..
+## Implemented a pipeline using jenkins..
 
 - Code pushed to github repository
 - GitHub webhook triggers Jenkins pipeline
