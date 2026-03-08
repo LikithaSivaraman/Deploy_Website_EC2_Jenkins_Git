@@ -8,13 +8,17 @@ This project demonstrates automated deployment of a static website using Infrast
 ## Architecture
 GitHub → Terraform(EC2) → Jenkins → Nginx → Website
 
-## Technologies
-- GitHub
-- Terraform
-- Jenkins
-- AWS EC2
-- Ubuntu
-- Nginx
+## Tools & Technologies
+
+☁️ AWS EC2 – Hosting the web server
+
+⚙️ Terraform – Infrastructure provisioning
+
+🔄 Jenkins – CI/CD pipeline automation
+
+📦 Git – Version control
+
+🌐 Nginx – Web server to host the website
 
 ## Deployment Steps
 1. Clone repository
