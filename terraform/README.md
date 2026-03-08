@@ -12,6 +12,8 @@ Terraform is used to:
 
 Command execution:
 
-terraform init
-terraform plan
-terraform apply
+`terraform init`
+
+`terraform plan`
+
+`terraform apply`
