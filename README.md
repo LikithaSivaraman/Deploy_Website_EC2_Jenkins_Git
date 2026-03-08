@@ -29,13 +29,11 @@ GitHub → Terraform(EC2) → Jenkins → Nginx → Website
 ## Project Structure
 ```
 Project folder
-```
+
 terraform
-```
 main.tf
-```
 variables.tf
-```
+
 terraform.tfvars
 ```
 
