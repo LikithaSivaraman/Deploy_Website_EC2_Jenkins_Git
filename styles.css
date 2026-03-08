@@ -1,0 +1,152 @@
+body,
+h1,
+h2,
+p {
+    
+    margin: 0;
+    font-family:SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: #f0f2f5;
+}
+
+#main-div {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    color: #0866ff;
+    font-size: 55px;
+
+    padding: 20px;
+}
+
+#Signup-form {
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+}
+
+#header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+p {
+    color: #606770;
+}
+
+#input-fields {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+
+#half-width {
+    width: 48%;
+    display: flex;
+}
+
+#full-width {
+    display: flex;
+    width: 100%;
+    margin-top:12px;
+}
+
+label {
+    color: #606770;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+#dob-div {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+}
+
+#quad-width {
+    width: 30%;
+    display: flex;
+
+}
+
+.btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.radio-label {
+    padding-bottom: 0;
+    font-size: 15px;
+    color:black;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;;
+}
+
+.radio-input {
+    margin: 0;
+    width: auto;
+
+}
+
+small {
+    font-size: 11.5px;
+    color: #606770;
+    padding-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #4468a5;
+}
+
+#button-div {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#signup-btn {
+    background-color: #00a400;
+    color: white;
+    padding: 8px 65px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+}
+
+#account-div {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 17px;
+    
+}
