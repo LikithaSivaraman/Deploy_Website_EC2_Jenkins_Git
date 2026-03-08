@@ -35,6 +35,11 @@ Project folder
 |__main.tf
 |__variables.tf
 |__terraform.tfvars
+|
+|__Jenkins
+|
+|__jenkinsfile
+|__readme.md
 ```
 
 
