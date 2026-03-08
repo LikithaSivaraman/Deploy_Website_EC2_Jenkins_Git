@@ -27,7 +27,7 @@ GitHub → Terraform(EC2) → Jenkins → Nginx → Website
 4. Nginx serves the website
 
 ## Project Structure
-
+```
 Project folder
 |
 |___terraform
@@ -35,6 +35,6 @@ Project folder
 |__main.tf
 |__variables.tf
 |__terraform.tfvars
-
+```
 
 
