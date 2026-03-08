@@ -2,10 +2,10 @@
 
 Terraform is used to:
 
--Create AWS EC2 instance
--Configure security group
--Enable SSH access
--Prepare infrastructure for deployment
+1.Create AWS EC2 instance
+2.Configure security group
+3.Enable SSH access
+4.prepare infrastructure for deployment
 
 Command execution:
 
