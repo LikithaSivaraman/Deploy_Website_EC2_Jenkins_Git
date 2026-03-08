@@ -3,7 +3,7 @@
 # CI/CD Website Deployment using Jenkins
 
 ## Description
-Deploy a static website using Jenkins pipeline on an EC2 Ubuntu server with Nginx.
+This project demonstrates automated deployment of a static website using Infrastructure as Code and CI/CD pipeline.
 
 ## Architecture
 GitHub → Terraform(EC2) → Jenkins → Nginx → Website
